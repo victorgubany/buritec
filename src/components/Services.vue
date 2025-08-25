@@ -87,7 +87,7 @@ const recoveryChunks = computed(() => chunkArray(recovery, 5));
 
 const sections = computed(() => [
   { key: 'services', title: 'Serviços', chunks: serviceChunks.value },
-  { key: 'recovery', title: 'Fabricação', chunks: recoveryChunks.value }
+  { key: 'recovery', title: 'Fabricação e Reforma', chunks: recoveryChunks.value }
 ]);
 
 // Inicializamos já com 'recovery' aberta
