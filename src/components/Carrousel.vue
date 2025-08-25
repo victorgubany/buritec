@@ -1,17 +1,22 @@
 <template>
   <div class="relative w-full overflow-hidden" role="region" aria-label="Image Carousel">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 md:h-96">
-      <TransitionGroup name="fade" tag="div">
-        <div v-for="(image, index) in carrouselImages" :key="index" v-show="currentIndex === index" class="absolute inset-0">
-          <img
-            :src="image"
-            :alt="`Slide ${index + 1}`"
-            class="block w-full h-full object-cover"
-            loading="lazy"
-          />
-        </div>
-      </TransitionGroup>
+    <!-- Wrapper com largura dinâmica -->
+    <div
+      class="flex transition-transform duration-700 ease-in-out"
+      :style="{ transform: `translateX(-${currentIndex * 100}%)` }"
+    >
+      <div
+        v-for="(image, index) in carrouselImages"
+        :key="index"
+        class="w-full flex-shrink-0 h-56 md:h-96 relative"
+      >
+        <img
+          :src="image"
+          :alt="`Slide ${index + 1}`"
+          class="w-full h-full object-cover"
+          loading="lazy"
+        />
+      </div>
     </div>
 
     <!-- Indicators -->
@@ -59,15 +64,14 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
 
-import image1 from "@/assets/imgs/image1.jpg";
 import image2 from "@/assets/imgs/image2.jpg";
 import image3 from "@/assets/imgs/image3.jpg";
 
-const carrouselImages = [image1, image2, image3];
+const carrouselImages = [image3, image2 ];
 const currentIndex = ref(0);
 const interval = ref(null);
-const autoplay = true; // defina false se não quiser autoplay
-const delay = 5000; // tempo entre slides em ms
+const autoplay = true;
+const delay = 5000;
 
 function nextSlide() {
   currentIndex.value = (currentIndex.value + 1) % carrouselImages.length;
@@ -92,12 +96,3 @@ onBeforeUnmount(() => {
   if (interval.value) clearInterval(interval.value);
 });
 </script>
-
-<style scoped>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.7s ease;
-}
-.fade-enter-from, .fade-leave-to {
-  opacity: 0;
-}
-</style>
