@@ -13,7 +13,9 @@
         </div>
         <div class="flex flex-1 items-start justify-start sm:items-stretch sm:justify-start">
           <div class="flex shrink-0 items-center">
-            <img class="h-25 w-auto" :src="logo" alt="Your Company" />
+            <a href="/">
+                <img class="h-25 w-auto" :src="logo" alt="Your Company" />
+            </a>
           </div>
         </div>
         <div class="flex flex-1 items-center justify-end sm:items-stretch sm:justify-end">
@@ -40,7 +42,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import logo from '@/assets/imgs/logo.png'
 const navigation = [
   { name: 'Inicio', href: '#', current: true },
-  { name: 'Sobre nós', href: '#', current: false },
-  { name: 'Serviços', href: '#', current: false },
+  { name: 'Sobre nós', href: '#sobrenos', current: false },
+  { name: 'Serviços', href: '#servicos', current: false },
 ]
 </script>

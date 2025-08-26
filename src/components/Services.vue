@@ -1,5 +1,5 @@
 <template>
-  <div class="container max-w-5xl mx-auto space-y-4">
+  <div id="servicos" class="container max-w-5xl mx-auto space-y-4">
     <!-- Accordion Item -->
     <div
       v-for="section in sections"

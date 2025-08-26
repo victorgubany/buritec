@@ -2,4 +2,6 @@
 @import "flowbite/src/themes/default";
 @import 'flowbite';
 
-
+html {
+  scroll-behavior: smooth;
+}

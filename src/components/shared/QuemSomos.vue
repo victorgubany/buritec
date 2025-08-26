@@ -1,7 +1,7 @@
 <template>
 
 
-  <section class="quem-somos bg-gray-50 py-10">
+  <section id="sobrenos" class="quem-somos bg-gray-50 py-10">
     <div class="max-w-4xl mx-auto px-4 text-center">
       <h1 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
         Quem Somos
