@@ -9,7 +9,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Balanceamento -->
             <div class="bg-gray-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-            <img src="/src/assets/imgs/balanceamento.png" alt="Balanceamento" class="w-full h-48 object-cover">
+            <img src="/src/assets/imgs/balanceamento1.jpeg" alt="Balanceamento" class="w-full h-48 object-cover">
             <div class="p-6">
                 <h3 class="text-xl font-semibold text-blue-600">Balanceamento</h3>
                 <p class="text-gray-600 mt-3 text-sm leading-relaxed">
