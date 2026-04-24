@@ -1,12 +1,12 @@
 <template>
   <div
-    class="container flex justify-center items-center gap-4"
+    class="container min-w-full flex justify-center items-center gap-4"
     :style="{ backgroundImage: `url(${perfil})` }"
   >
-    <button class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+    <button class="cursor-pointer px-6 py-2 bg-gray-600/50 text-white border border-transparent rounded-lg transition-all duration-300 hover:bg-gray-600 hover:border-white">
       Solicite um orçamento
     </button>
-    <button class="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">
+    <button class="cursor-pointer px-6 py-2 bg-gray-600/50 text-white border border-transparent rounded-lg transition-all duration-300 hover:bg-gray-600 hover:border-white">
       Solicite um orçamento por e-mail
     </button>
   </div>
@@ -19,8 +19,8 @@ import perfil from '@/assets/imgs/perfil.png'
 <style scoped>
 .container {
   width: 100%;
-  height: 50vh; /* tela inteira na vertical */
-  background-size: cover; /* preenche horizontalmente, pode cortar vertical */
+  height: 50vh; 
+  background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
 }

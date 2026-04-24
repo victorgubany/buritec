@@ -1,18 +1,16 @@
 <template>
-  <div class="container grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
+  <div class="container min-w-full grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
 
     <!-- Coluna 1: Mapa -->
     <div class="w-full h-96">
-      <!-- Google Maps iframe exemplo -->
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d116813.21942759807!2d-48.680168079709055!3d-23.80390481900663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94c40d827e6a6231%3A0xadc8bfa9992b9db2!2sAv.%20Pascoal%20Spaluto%2C%20615%20-%20Centro%2C%20Buri%20-%20SP%2C%2018290-000!3m2!1d-23.803926699999998!2d-48.5977665!5e0!3m2!1spt-BR!2sbr!4v1753884082316!5m2!1spt-BR!2sbr"
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.79865254374!2d-48.07073932372398!3d-23.61155297876534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5cbc0cf0e02ef%3A0xcd92c7d3c98ec1c!2sDeksa%20Industrial!5e0!3m2!1spt-BR!2sbr!4v1777053957724!5m2!1spt-BR!2sbr"       
         width="100%"
         height="100%"
         style="border:0;"
         allowfullscreen="true"
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
     </div>
 
     <!-- Coluna 2: Formulário -->

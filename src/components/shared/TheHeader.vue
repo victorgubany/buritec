@@ -14,7 +14,7 @@
         <div class="flex flex-1 items-start justify-start sm:items-stretch sm:justify-start">
           <div class="flex shrink-0 items-center">
             <a href="/">
-                <img class="h-25 w-auto" :src="logo" alt="Your Company" />
+                <img class="h-15 w-auto" :src="logo" alt="Your Company" />
             </a>
           </div>
         </div>

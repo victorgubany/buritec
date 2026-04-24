@@ -9,5 +9,5 @@ import QuemSomos from '@/components/shared/QuemSomos.vue';
 <Carrousel/>
 <MainServices/>
 <Services />
-<QuemSomos name="Buritec"/>
+<QuemSomos name="DEKSA"/>
 </template>

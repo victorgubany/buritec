@@ -4,7 +4,7 @@
 
 
     <footer class="bg-gray-900 text-white py-8">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
       <div>
@@ -37,9 +37,9 @@
       <div>
         <h4 class="text-lg font-semibold mb-4">Redes Sociais</h4>
         <div class="flex space-x-4">
-          <a target="_blank" :href="linkedIn" class="hover:text-gray-400">🌐</a>
+          <a v-if="linkedIn" target="_blank" :href="linkedIn" class="hover:text-gray-400">🌐</a>
           <!-- <a href="#" class="hover:text-gray-400">🐦</a> -->
-          <a target="_blank" :href="facebook" class="hover:text-gray-400">📘</a>
+          <a v-if="facebook" target="_blank" :href="facebook" class="hover:text-gray-400">📘</a>
           <a target="_blank" :href="instagram" class="hover:text-gray-400">📸</a>
         </div>
       </div>
