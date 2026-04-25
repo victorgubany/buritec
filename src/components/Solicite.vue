@@ -3,12 +3,18 @@
     class="container min-w-full flex justify-center items-center gap-4"
     :style="{ backgroundImage: `url(${perfil})` }"
   >
+  <a target="_blank" href="whatsapp://send?phone=5515997744747&text=Gostaria%20de%20informações%20sobre%20os%20serviços">
     <button class="cursor-pointer px-6 py-2 bg-gray-600/50 text-white border border-transparent rounded-lg transition-all duration-300 hover:bg-gray-600 hover:border-white">
       Solicite um orçamento
     </button>
-    <button class="cursor-pointer px-6 py-2 bg-gray-600/50 text-white border border-transparent rounded-lg transition-all duration-300 hover:bg-gray-600 hover:border-white">
-      Solicite um orçamento por e-mail
-    </button>
+  </a>
+
+    <a href="mailto:contato@deksa.com.br">
+      <button class="cursor-pointer px-6 py-2 bg-gray-600/50 text-white border border-transparent rounded-lg transition-all duration-300 hover:bg-gray-600 hover:border-white">
+        Solicite um orçamento por e-mail
+      </button>
+    </a>
+
   </div>
 </template>
 
