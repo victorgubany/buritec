@@ -21,7 +21,7 @@
 
             <!-- Engrenagens -->
             <div class="bg-gray-50 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-            <img src="/src/assets/imgs/engrenagem.png" alt="Fabricação de Engrenagens" class="w-full h-48 object-cover">
+            <img src="/src/assets/imgs/engrenagem1.jpeg" alt="Fabricação de Engrenagens" class="w-full h-48 object-cover">
             <div class="p-6">
                 <h3 class="text-xl font-semibold text-blue-600">Engrenagens</h3>
                 <p class="text-gray-600 mt-3 text-sm leading-relaxed">
