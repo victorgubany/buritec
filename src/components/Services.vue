@@ -45,10 +45,10 @@
             >
               <li v-for="(item, i) in chunk" :key="i">
                 <a
-                  :href="'/' + item"
-                  class="hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors duration-200"
+                  :href="'/services/' + item.slug"
+                  class="hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors duration-200 cursor-pointer"
                 >
-                  {{ item }}
+                  {{ item.name }}
                 </a>
               </li>
             </ul>
@@ -62,17 +62,8 @@
 <script setup>
 import { ref, computed } from "vue";
 
-const services = [
-  "Manutenção em Campo", "Balanceamento Dinâmico Industrial", "Manutenção em Geral", "Usinagem",
-  "Fresadora", "Torno", "Plaina", "Soldas Especiais", "Adaptações", "Mandrilhamento",
-  "Embuchamento", "Prensa", "Pintura"
-];
-
-const recovery = [
-  "Ferramentas", "Pistões", "Eixos", "Rotores", "Engrenagens", "Rodas dentadas", "Mancais",
-  "Rodas", "Cubos", "Polias", "Cremalheiras", "Flanges", "Rolos", "Pinos", "Buchas", "Porcas",
-  "Prisioneiros", "Roscas", "Furos", "Chavetas", "Olhais", "Ganchos", "Prolongadores", "Separadores"
-];
+import { services } from "@/mocks/list";
+import { recovery } from "@/mocks/list";
 
 function chunkArray(arr, size = 5) {
   const result = [];
@@ -97,6 +88,7 @@ function toggleSection(section) {
   openSection.value = openSection.value === section ? null : section;
 }
 </script>
+
 <style scoped>
 .container {
   margin-top: 4vh;
