@@ -1,227 +1,227 @@
 export const services = [
   { 
-    name : "Manutenção em Campo",
-    slug : "manutencao-em-campo",
-    description : "A manutencao em campo testes",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Balanceamento Dinâmico Industrial" ,
-    slug : "balanceamento-dinamico-industrial" ,
-    description : "Balanceamento dinamico industrial teste" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Manutenção em Geral" ,
-    slug : "manutencao-em-geral" ,
-    description : "manutencao em geral teste" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Usinagem" ,
-    slug : "usinagem" ,
-    description : "usinagem teste texto" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Fresadora" ,
-    slug : "fresadora" ,
-    description : "fresadora descricao teste" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Torno" ,
-    slug : "torno" ,
-    description : "torno descricao teste" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Plaina" ,
-    slug : "plaina" ,
-    description : "plaina descricao teste" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Soldas Especiais" ,
-    slug : "soldas-especiais" ,
-    description : "soldas especiais teste" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Adaptações" ,
-    slug : "adaptacoes" ,
-    description : "adaptacao teste" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Mandrilhamento" ,
-    slug : "mandrilhamento" ,
-    description : "Mandrilhamento teste texto" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Embuchamento" ,
-    slug : "embuchamento" ,
-    description : "embuchamento texto teste" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Prensa" ,
-    slug : "prensa" ,
-    description : "Prensa texto teste" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-    },
-    {
-    name : "Pintura" ,
-    slug : "pintura" ,
-    description : "pintura teste" ,
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
-   },
+    name: "Manutenção em Campo",
+    slug: "manutencao-em-campo",
+    description: "Atendimento técnico in loco para diagnóstico, reparo preventivo e corretivo diretamente nas instalações do cliente. Esta modalidade elimina a necessidade de desmontagem e transporte de maquinário pesado, reduzindo drasticamente o tempo de inatividade (downtime) e garantindo a rápida retomada da linha de produção.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Balanceamento Dinâmico Industrial",
+    slug: "balanceamento-dinamico-industrial",
+    description: "Análise computadorizada e correção de desbalanceamentos em peças rotativas de pequeno a grande porte. O processo elimina vibrações excessivas, prolonga significativamente a vida útil de mancais e rolamentos, diminui o consumo de energia e evita falhas estruturais catastróficas no equipamento.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Manutenção em Geral",
+    slug: "manutencao-em-geral",
+    description: "Inspeção detalhada e revisão completa de equipamentos e conjuntos mecânicos. Inclui desmontagem, limpeza, lubrificação, substituição de componentes com desgaste prematuro e testes finais de carga e funcionamento para assegurar que a máquina opere com sua capacidade e precisão originais.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Usinagem",
+    slug: "usinagem",
+    description: "Processo de fabricação por remoção de material (desbaste) para criação de peças mecânicas complexas a partir de blocos maciços. Utilizando equipamentos convencionais e CNC, garantimos tolerâncias dimensionais rigorosas e acabamentos superficiais de alta qualidade, atendendo estritamente aos desenhos técnicos.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Fresadora",
+    slug: "fresadora",
+    description: "Usinagem de precisão em superfícies planas, inclinadas e complexas. O fresamento é ideal para a confecção de ranhuras, rebaixos, engrenagens e rasgos de chaveta, permitindo a criação de geometrias intrincadas em diversos tipos de metais e ligas especiais com excelente controle dimensional.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Torno",
+    slug: "torno",
+    description: "Operação de torneamento para fabricação, recuperação e acabamento de peças de revolução (cilíndricas e cônicas). O processo abrange desde o desbaste pesado até operações finas de faceamento, rosqueamento e sangramento, garantindo total concentricidade e alinhamento do componente.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Plaina",
+    slug: "plaina",
+    description: "Usinagem voltada para a obtenção de superfícies estritamente planas e guias de deslizamento lineares. O aplainamento é uma etapa crítica para garantir o esquadrejamento perfeito, o nivelamento de bases de máquinas de grande porte e a recuperação de barramentos industriais.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Soldas Especiais",
+    slug: "soldas-especiais",
+    description: "Aplicação de processos avançados de soldagem (como TIG, MIG/MAG e eletrodo revestido) em ferros fundidos, aços inoxidáveis, alumínio e ligas especiais. Foco na recuperação estrutural, preenchimento de áreas desgastadas e uniões que exigem altíssima resistência mecânica e total estanqueidade.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Adaptações",
+    slug: "adaptacoes",
+    description: "Engenharia reversa e modificação técnica de maquinários e estruturas existentes. Desenvolvemos e integramos novos componentes sob medida para modernizar o equipamento, otimizar sua performance produtiva ou adaptá-lo para novas funções dentro do layout da fábrica.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Mandrilhamento",
+    slug: "mandrilhamento",
+    description: "Processo de usinagem focado na ampliação, alinhamento e calibração fina de furos cilíndricos já existentes em peças de grande porte (como carcaças e blocos). Garante a exatidão geométrica e a concentricidade necessárias para a montagem de eixos e buchas com ajuste perfeito.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Embuchamento",
+    slug: "embuchamento",
+    description: "Recuperação de alojamentos estruturais que sofreram ovalização ou desgaste severo. O procedimento envolve a usinagem da área danificada e a inserção sob pressão de buchas de sacrifício fabricadas em aço, bronze ou polímeros especiais, devolvendo à peça as medidas e tolerâncias originais de fábrica.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Prensa",
+    slug: "prensa",
+    description: "Serviços de prensagem hidráulica de alta tonelagem para montagens e desmontagens com interferência, extração de rolamentos pesados e conformação de peças metálicas a frio. Assegura a aplicação de força controlada e uniforme, evitando danos aos componentes durante a manutenção.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  },
+  {
+    name: "Pintura",
+    slug: "pintura",
+    description: "Acabamento industrial de alta performance que inclui preparação abrasiva da superfície, aplicação de primers anticorrosivos e tintas de acabamento (como epóxi e PU). Proporciona proteção extrema contra intempéries, agentes químicos e abrasão, além de renovar a estética do equipamento.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  }
 ];
 
 export const recovery = [
   {
-    name : "Ferramentas",
-    slug : "ferramentas",
-    description : "ferramentas description",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+    name: "Ferramentas",
+    slug: "ferramentas",
+    description: "Recuperação técnica de ferramentas de corte, estampo e fixação. O processo envolve afiação de precisão, reconstrução da geometria de corte e novos tratamentos térmicos, devolvendo a dureza necessária e a capacidade produtiva, gerando grande economia em relação à compra de ferramentas novas.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Pistões",
-    slug : "pistoes",
-    description : "pistoes description",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Pistões",
+    slug: "pistoes",
+    description: "Restauração completa de cilindros e pistões hidráulicos e pneumáticos. Inclui a recuperação do cromo duro na haste, brunimento da camisa interna para assentamento das gaxetas e substituição de todo o kit de vedações, garantindo um funcionamento suave e suportando altas pressões sem vazamentos.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Eixos",
-    slug : "eixos",
-    description : "eixos description",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Eixos",
+    slug: "eixos",
+    description: "Recuperação de colos de rolamentos, pistas de retentores e áreas de acoplamento em eixos de transmissão. Utilizamos técnicas de metalização ou preenchimento por solda especial, seguidas de retífica cilíndrica de alta precisão para restaurar o diâmetro nominal e as propriedades mecânicas do eixo.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Rotores",
-    slug : "rotores",
-    description : "Rotores description",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Rotores",
+    slug: "rotores",
+    description: "Recondicionamento de rotores de bombas centrífugas, exaustores e turbinas. O serviço repara o desgaste causado por cavitação, abrasão ou corrosão química, reconstruindo o perfil das palhetas e realizando o balanceamento dinâmico final para garantir uma vazão eficiente e livre de turbulências.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Engrenagens",
-    slug : "engrenagens",
-    description : "engrenagens description",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Engrenagens",
+    slug: "engrenagens",
+    description: "Reparo detalhado do perfil dos dentes de engrenagens retas, helicoidais ou cônicas. O recondicionamento ajusta o passo e o ângulo de pressão, eliminando folgas excessivas (backlash) e garantindo uma transmissão de torque contínua, silenciosa e segura para caixas de redução e sistemas de tração.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Rodas dentadas",
-    slug : "rodas-dentadas",
-    description : "rodas dentadas description",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Rodas dentadas",
+    slug: "rodas-dentadas",
+    description: "Recuperação do perfil de engrenamento de coroas e pinhões utilizados em transmissões por corrente. O serviço restaura a geometria dos vales e cristas dos dentes, garantindo o sincronismo perfeito, evitando o desgaste prematuro dos elos e o perigoso salto da corrente sob cargas elevadas.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Mancais",
-    slug : "mancais",
-    description : "Mancais description",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Mancais",
+    slug: "mancais",
+    description: "Usinagem de precisão em colos e caixas de mancais bipartidos ou inteiriços. Em mancais de deslizamento, realizamos a aplicação e o rasqueteamento de metal patente (babbitt) para restaurar a pista de contato, assegurando a formação ideal da cunha de óleo e a estabilidade do eixo rotativo.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Rodas",
-    slug : "rodas",
-    description : "rodas description",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Rodas",
+    slug: "rodas",
+    description: "Restauração da banda de rodagem, frisos direcionais e do cubo central de rodas industriais usadas em pontes rolantes, vagonetas e empilhadeiras. O enchimento térmico e a usinagem devolvem a circularidade perfeita, aumentando a segurança operacional na movimentação de cargas.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Cubos",
-    slug : "cubos",
-    description : "Cubos descriptions",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Cubos",
+    slug: "cubos",
+    description: "Recuperação de encaixes centrais, estrias de tração e da furação de fixação em cubos de roda, polias e volantes de inércia. O processo elimina folgas críticas que causam descentralização e fadiga prematura nos eixos e parafusos de retenção do conjunto.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Polias",
-    slug : "polias",
-    description : "Polias descriptions",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Polias",
+    slug: "polias",
+    description: "Retífica dos canais em perfil 'V' ou dos dentes de sincronismo em polias de transmissão. O recondicionamento garante o ângulo exato para o perfeito assentamento da correia, evitando o patinamento, a perda de eficiência mecânica e o superaquecimento do sistema transmissor.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Cremalheiras",
-    slug : "cremalheiras",
-    description : "Cremalheiras description",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Cremalheiras",
+    slug: "cremalheiras",
+    description: "Reparo da base de fixação e reconstrução de dentes fadigados em cremalheiras de precisão. O serviço restabelece a geometria necessária para o encaixe perfeito com o pinhão, garantindo uma movimentação linear fluida, livre de solavancos e vibrações em pórticos e máquinas-ferramenta.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Flanges",
-    slug : "flanges",
-    description : "Flanges descriptions",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Flanges",
+    slug: "flanges",
+    description: "Faceamento mecânico e retífica da área de contato (ranhuras de vedação) de conexões flangeadas. O procedimento elimina empenamentos estruturais, corrosão alveolar e riscos profundos, garantindo o assentamento hermético das juntas e evitando vazamentos em linhas de fluidos sob alta pressão.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Rolos",
-    slug : "rolos",
-    description : "Rolos descriptions",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Rolos",
+    slug: "rolos",
+    description: "Restauração de rolos transportadores, tracionadores e de laminação. O serviço pode incluir a recuperação dos colos de apoio, novo revestimento protetor (em poliuretano, borracha ou cromo duro) e a retífica cilíndrica final para garantir o paralelismo e a distribuição uniforme de carga sobre o material processado.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Pinos",
-    slug : "pinos",
-    description : "Pinos descriptions",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Pinos",
+    slug: "pinos",
+    description: "Fabricação sob medida e recuperação dimensional de pinos de articulação mecânica. Aplicamos tratamentos superficiais para aumentar a dureza e a resistência ao cisalhamento e ao desgaste por atrito, garantindo movimentações precisas em braços articulados e suspensões de equipamentos pesados.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Buchas",
-    slug : "buchas",
-    description : "Buchas descriptions",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Buchas",
+    slug: "buchas",
+    description: "Usinagem de alta precisão para a confecção ou substituição de buchas radiais em bronze SAE, aço ligado ou polímeros de engenharia. Atuam como elementos de sacrifício cruciais para centralizar eixos rotativos ou articulados, absorvendo impactos e evitando o desgaste da carcaça principal.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Porcas",
-    slug : "porcas",
-    description : "Porcas descriptions",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Porcas",
+    slug: "porcas",
+    description: "Fabricação de porcas com perfis especiais (como roscas trapezoidais, quadradas ou redondas) e recuperação de roscas internas avariadas. Essenciais para sistemas de fuso de avanço, prensas e equipamentos de elevação onde há exigência de suportar altas cargas de tração e compressão contínuas.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Prisioneiros",
-    slug : "prisioneiros",
-    description : "Prisioneiros descriptions",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Prisioneiros",
+    slug: "prisioneiros",
+    description: "Extração técnica de estojos e prisioneiros fraturados internamente nos blocos de máquinas. O serviço inclui a limpeza do alojamento, reparo da rosca original (frequentemente com uso de insertos postiços de alta resistência) e a confecção de novos fixadores em aço ligado para uma ancoragem segura.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Roscas",
-    slug : "roscas",
-    description : "Roscas descriptions",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Roscas",
+    slug: "roscas",
+    description: "Reparo detalhado de roscas internas e externas que sofreram espanamento, travamento ou corrosão. Utilizamos técnicas de reabertura com machos e cossinetes calibrados ou, em casos severos, solda de preenchimento e re-usinagem completa no torno, mantendo o passo original exigido pelo projeto.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Furos",
-    slug : "furos",
-    description : "Furos descriptions",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Furos",
+    slug: "furos",
+    description: "Correção de tolerâncias, ovalizações e desgastes profundos em furações de acoplamento crítico. O procedimento envolve técnicas de preenchimento metálico seguidas de mandrilhamento ou furação de precisão, restabelecendo as cotas nominais para garantir a fixação rígida e alinhada dos componentes.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Chavetas",
-    slug : "chavetas",
-    description : "cahvetas desadas",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Chavetas",
+    slug: "chavetas",
+    description: "Fresamento corretivo e alargamento de rasgos de chaveta esmagados por excesso de torque. Além de recuperar o alojamento no eixo ou no cubo, confeccionamos chavetas escalonadas sob medida com o ajuste exato de tolerância (h7/p9) para impedir a rotação em falso e garantir a transmissão de potência.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Olhais",
-    slug : "olhais",
-    description : "sasushusa",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Olhais",
+    slug: "olhais",
+    description: "Recuperação estrutural de olhais de içamento, pontos de reboque e áreas de fixação de cilindros hidráulicos. O processo corrige a ovalização interna causada por cargas extremas e impactos, utilizando solda de alta tenacidade e usinagem para restaurar a segurança total das operações de movimentação.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Ganchos",
-    slug : "ganchos",
-    description : "shusasuas",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Ganchos",
+    slug: "ganchos",
+    description: "Inspeção dimensional e reparo rigoroso nas zonas de desgaste de ganchos forjados de elevação de carga. Através de processos de soldagem certificada, restauramos a espessura e a geometria da área de assentamento dos cabos ou cintas, assegurando que o equipamento opere dentro dos rígidos coeficientes de segurança.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Prolongadores",
-    slug : "prolongadores",
-    description : "dsds",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Prolongadores",
+    slug: "prolongadores",
+    description: "Restauração da integridade mecânica de hastes e luvas prolongadoras utilizadas em perfuratrizes ou ferramentas de alcance profundo. O serviço repara as roscas de união e corrige empenamentos axiais, garantindo que o conjunto suporte torção contínua sem perder o alinhamento central.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   },
-    {
-    name : "Separadores",
-    slug : "eparadores",
-    description : "Separadores sassha",
-    image : "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
+  {
+    name: "Separadores",
+    slug: "separadores",
+    description: "Manutenção e recondicionamento das faces de vedação mecânica e da integridade estrutural interna de separadores industriais (centrífugos, ciclônicos ou magnéticos). Assegura a ausência de vazamentos ou contaminações cruzadas, otimizando o processo de classificação e separação de materiais na linha de produção.",
+    image: "https://enfoquevisual.com.br/cdn/shop/products/102-022.jpg?v=1574792050"
   }
 ];
