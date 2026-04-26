@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ServicesView from '@/views/ServicesView.vue'
+import RecoveryView from '@/views/RecoveryView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +15,11 @@ const router = createRouter({
       path: '/services/:slug',
       name: 'services',
       component: ServicesView
+    },
+    {
+      path: '/recovery/:slug',
+      name: 'recovery',
+      component: RecoveryView
     }
     // {
     // path: '/header',

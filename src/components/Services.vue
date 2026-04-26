@@ -6,7 +6,8 @@
       :key="section.key"
       class="bg-white dark:bg-gray-900 rounded-xl shadow-md overflow-hidden border border-gray-200 dark:border-gray-700"
     >
-      <button
+    <div v-if="section.title == 'Serviços'">
+            <button
         @click="toggleSection(section.key)"
         class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-300"
         :aria-expanded="openSection === section.key"
@@ -55,6 +56,61 @@
           </div>
         </div>
       </Transition>
+
+    </div>
+
+    <div v-else>
+      <button
+        @click="toggleSection(section.key)"
+        class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-300"
+        :aria-expanded="openSection === section.key"
+        :aria-controls="`${section.key}-panel`"
+      >
+        <span class="text-lg font-semibold">{{ section.title }}</span>
+        <svg
+          :class="['w-5 h-5 transition-transform duration-300', openSection === section.key ? 'rotate-180' : '']"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 10 6"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9 5 5 1 1 5"
+          />
+        </svg>
+      </button>
+
+      <Transition name="accordion">
+        <div
+          v-show="openSection === section.key"
+          :id="`${section.key}-panel`"
+          role="region"
+          :aria-labelledby="section.key"
+          class="p-5 border-t border-gray-200 dark:border-gray-700"
+        >
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <ul
+              v-for="(chunk, index) in section.chunks"
+              :key="`${section.key}-${index}`"
+              class="list-disc ps-5 text-gray-600 dark:text-gray-400 space-y-1"
+            >
+              <li v-for="(item, i) in chunk" :key="i">
+                <a
+                  :href="'/recovery/' + item.slug"
+                  class="hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors duration-200 cursor-pointer"
+                >
+                  {{ item.name }}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </Transition>
+    </div>
+
     </div>
   </div>
 </template>
